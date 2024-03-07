@@ -14,5 +14,3 @@ for i in P:
     N -= 1
 
 print(res)
-
-
