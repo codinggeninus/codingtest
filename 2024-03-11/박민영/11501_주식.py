@@ -23,5 +23,3 @@ for _ in range(T):
             idx = i
 
     print(profit)
-
-
