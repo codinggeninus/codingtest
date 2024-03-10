@@ -1,3 +1,6 @@
+# 식 formu
+# 괄호 친 후 식의 최소값 res
+
 import sys
 
 formu = sys.stdin.readline().strip()
