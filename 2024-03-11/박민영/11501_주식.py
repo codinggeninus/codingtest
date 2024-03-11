@@ -1,8 +1,8 @@
-# 리스트 최대값 인덱스 index() 구하기, 인덱스 도달 시 다시 최대값 계산 -> 시간초과
-# 뒤에서부터 for문을 돌면 index() 사용할 필요 X
-
 # 테스트 케이스 T, 날의 수 N, 주가 price
 # 날별 최대 이익 profit
+
+# 리스트 최대값 인덱스 index() 구하기, 인덱스 도달 시 다시 최대값 계산 -> 시간초과
+# 뒤에서부터 for문을 돌면 index() 사용할 필요 X
 
 import sys
 
@@ -23,3 +23,6 @@ for _ in range(T):
             idx = i
 
     print(profit)
+
+
+

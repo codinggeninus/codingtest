@@ -1,4 +1,4 @@
-# 식 formu
+# 양수, +, -가 포함된 식 formu
 # 괄호 친 후 식의 최소값 res
 
 import sys
