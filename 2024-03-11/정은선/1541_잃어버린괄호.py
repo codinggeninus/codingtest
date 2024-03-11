@@ -10,7 +10,7 @@ for i in range(len(s)):
     number += s[i] #현재 문자 더해줌
     if i == len(s)-1: #마지막 숫자 처리
         arr.append(int(number))
-
+        
 result = arr[0] #계산 시작값
 minus = False 
 for i in range(1, len(arr)):
