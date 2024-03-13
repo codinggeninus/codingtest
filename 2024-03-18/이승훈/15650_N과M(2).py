@@ -11,13 +11,14 @@ def solution1(n, m):
 
     def dfs(start):
         if len(visited) == m:
-            print(*visited)
-        else:
-            for number in range(start, n + 1):
-                if number not in visited:
-                    visited.append(number)
-                    dfs(start + 1)
-                    visited.remove(number)
+            print(" ".join(map(str, visited)))
+            return
+
+        for number in range(start, n + 1):
+            if number not in visited:
+                visited.append(number)
+                dfs(number + 1)
+                visited.remove(number)
 
     dfs(1)
 
@@ -27,7 +28,7 @@ def solution2(n, m):
 
     def dfs(numbers):
         if len(numbers) == m:
-            print(*numbers)
+            print(" ".join(map(str, numbers)))
             return
 
         for number in range(1, n + 1):
