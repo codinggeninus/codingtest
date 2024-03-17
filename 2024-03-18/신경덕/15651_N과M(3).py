@@ -1,22 +1,16 @@
-# 백트래킹, 실버3
-# https://www.acmicpc.net/problem/15651
-# 1. 백트래킹 중복0
-# 2. n^n
-# answer[]
-
-n, m = map(int, input().split())
-answer = []
+N, M = map(int, input().split())
+temp = []
 
 
-def backtracking():
-    if len(answer) == m:
-        print(' '.join(map(str, answer)))
+def dfs():
+    if M == len(temp):
+        print(' '.join(map(str, temp)))
         return
 
-    for i in range(1, n+1):
-        answer.append(i)
-        backtracking()
-        answer.pop()
+    for j in range(1, N + 1):
+        temp.append(j)
+        dfs()
+        temp.pop()
 
 
-backtracking()
+dfs()
