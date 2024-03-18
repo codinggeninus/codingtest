@@ -5,7 +5,7 @@ def maxProfit(prices):
     maxProfit = 0
     maxFuturePrice = 0
     
-    # 뒤에서부터 현재 가격과 미래의 최대 가격과의 차이를 계산
+
     for price in reversed(prices):
         if price > maxFuturePrice:
             maxFuturePrice = price
@@ -15,28 +15,17 @@ def maxProfit(prices):
 
 
 def maxProfit2(prices): # 실패
-    if not prices:
-        return 0
+    offset = 0
 
-    max_profit = 0
-    min_price = prices[0]
-
-    for price in prices:
-        if price < min_price:
-            min_price = price
-        max_profit += price - min_price
-
-    return max_profit
+    prices[offset:].index(max(prices[offset]))
 
     
 
-# 입력 받기
 T = int(input())
 for _ in range(T):
     N = int(input())
     prices = list(map(int, input().split()))
-    
-    # 최대 이익 계산 및 출력
+
     print(maxProfit(prices))
 
 
