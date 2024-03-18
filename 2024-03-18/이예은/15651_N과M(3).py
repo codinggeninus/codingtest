@@ -1,7 +1,7 @@
 # 백트래킹, 실버3
 # https://www.acmicpc.net/problem/15651
 # 1. 백트래킹 중복0
-# 2. n^n
+# 2. n^m
 # answer[]
 
 n, m = map(int, input().split())
