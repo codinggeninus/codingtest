@@ -27,12 +27,12 @@ class Shark:
         self.add_dist(fish.dist)
         self.increase_eat_count()
 
-    def add_dist(self, distance):
-        self.distance += distance
-
     def move_to(self, x, y):
         self.x = x
         self.y = y
+
+    def add_dist(self, distance):
+        self.distance += distance
 
     def increase_eat_count(self):
         self.eat_count += 1
