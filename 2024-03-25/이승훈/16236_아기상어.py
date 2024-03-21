@@ -51,6 +51,10 @@ def find_shark():
 
 def solution(n, space, shark):
     def find_candidates():
+        """
+        bfs 탐색을 통해 먹을 수 있는 물고기 후보를
+        (1.거리 -> 2.위 -> 3.왼쪽)을 기준으로 오름차 순 정렬 후 반환합니다.
+        """
         fishes = []
         queue = deque()
         visited = [[False] * n for _ in range(n)]
