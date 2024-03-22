@@ -83,16 +83,12 @@ def solution(n, space, shark):
         if not fishes:
             return []
 
-        return sorted(fishes, key=lambda fish: (fish.dist, fish.x, fish.y))[0]
-
-    while True:
-        fish = find_fish()
-
-        if not fish:
-            break
-
+        fish = sorted(fishes, key=lambda fish: (fish.dist, fish.x, fish.y))[0]
         space[shark.x][shark.y] = 0
         space[fish.x][fish.y] = 0
+        return fish
+
+    while fish := find_fish():
         shark.eat(fish)
 
     print(shark.dist)
