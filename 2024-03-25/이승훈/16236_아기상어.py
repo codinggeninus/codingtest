@@ -19,7 +19,7 @@ class Shark:
         self.x = x
         self.y = y
         self.size = size
-        self.distance = 0
+        self.dist = 0
         self.eat_count = 0
 
     def eat(self, fish):
@@ -31,8 +31,8 @@ class Shark:
         self.x = x
         self.y = y
 
-    def add_dist(self, distance):
-        self.distance += distance
+    def add_dist(self, dist):
+        self.dist += dist
 
     def increase_eat_count(self):
         self.eat_count += 1
@@ -50,10 +50,11 @@ def find_shark():
 
 
 def solution(n, space, shark):
-    def find_candidates():
+    def find_fish():
         """
-        bfs 탐색을 통해 먹을 수 있는 물고기 후보를
-        (1.거리 -> 2.위 -> 3.왼쪽)을 기준으로 오름차 순 정렬 후 반환합니다.
+        bfs 탐색을 통해 먹을 수 있는 물고기를 탐색합니다.
+        조건에 만족하는 물고기가 1개 이상 존재할 경우
+        (1.거리 -> 2.위 -> 3.왼쪽)을 기준으로 오름차 순 정렬 후 첫 번째 요소를 반환합니다.
         """
         fishes = []
         queue = deque()
@@ -79,20 +80,22 @@ def solution(n, space, shark):
                     if 0 < space[x][y] < shark.size:
                         fishes.append(Fish(x, y, cnt + 1))
 
-        return sorted(fishes, key=lambda fish: (fish.dist, fish.x, fish.y))
+        if not fishes:
+            return []
+
+        return sorted(fishes, key=lambda fish: (fish.dist, fish.x, fish.y))[0]
 
     while True:
-        candidate_fishes = find_candidates()
+        fish = find_fish()
 
-        if not candidate_fishes:
+        if not fish:
             break
 
-        fish = candidate_fishes[0]
         space[shark.x][shark.y] = 0
         space[fish.x][fish.y] = 0
         shark.eat(fish)
 
-    print(shark.distance)
+    print(shark.dist)
 
 
 n = int(input())
