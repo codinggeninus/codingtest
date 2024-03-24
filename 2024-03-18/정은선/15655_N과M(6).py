@@ -1,3 +1,5 @@
+#중복 X, N개 중 M개 선택
+
 n, m = map(int, input().split())
 num = list(map(int, input().split()))
 num.sort()
