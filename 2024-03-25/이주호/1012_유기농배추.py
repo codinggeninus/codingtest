@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(10000)
-
 t = int(input())
 result_list = [0 for i in range(t)]
 
