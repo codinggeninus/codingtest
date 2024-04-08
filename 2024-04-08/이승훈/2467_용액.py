@@ -10,7 +10,7 @@ min_blending = abs(juices[0] + juices[-1])
 
 
 def search(start, end):
-    ans_x, ans_y = 0, n-1
+    ans_x, ans_y = 0, n - 1
     min_blending = abs(juices[start] + juices[end])
 
     while start < end:
@@ -28,5 +28,5 @@ def search(start, end):
     return ans_x, ans_y
 
 
-ans_x, ans_y = search(0, n-1)
+ans_x, ans_y = search(0, n - 1)
 print(juices[ans_x], juices[ans_y])

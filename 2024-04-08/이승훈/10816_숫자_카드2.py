@@ -12,7 +12,7 @@ targets = list(map(int, input().strip().split()))
 def solution1():
     """내장 함수 사용"""
     from bisect import bisect_left, bisect_right
-    return bisect_right(cards, target) - bisect_left(cards, target) 
+    return bisect_right(cards, target) - bisect_left(cards, target)
 
 
 def solution2(target):
@@ -41,7 +41,7 @@ def solution2(target):
                 right = mid
         return left
 
-    return upper_bound(target) - lower_bound(target) 
+    return upper_bound(target) - lower_bound(target)
 
 
 cards.sort()
