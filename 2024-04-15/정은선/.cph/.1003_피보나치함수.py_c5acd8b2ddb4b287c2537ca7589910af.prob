@@ -1,0 +1,1 @@
+{"name":"Local: 1003_피보나치함수","url":"/Users/seon/Desktop/codingtest/2024-04-15/정은선/1003_피보나치함수.py","tests":[{"id":1713165686889,"input":"3\n0\n1\n3","output":"1 0\n0 1\n1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/seon/Desktop/codingtest/2024-04-15/정은선/1003_피보나치함수.py","group":"local","local":true}
