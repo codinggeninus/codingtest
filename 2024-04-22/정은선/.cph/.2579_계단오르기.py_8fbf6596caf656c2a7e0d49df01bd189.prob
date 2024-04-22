@@ -1,1 +1,0 @@
-{"name":"Local: 2579_계단오르기","url":"/Users/seon/Desktop/codingtest/2024-04-15/정은선/2579_계단오르기.py","tests":[{"id":1713163456338,"input":"6\n10\n20\n15\n25\n10\n20","output":"75"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/seon/Desktop/codingtest/2024-04-15/정은선/2579_계단오르기.py","group":"local","local":true}
