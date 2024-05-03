@@ -1,19 +1,19 @@
 #접근 1 - 시간초과
-# #순열 라이브러리
-# from itertools import permutations
+#순열 라이브러리
+from itertools import permutations
 
-# n = int(input()) #반복횟수
-# for i in range(n):
-#     word = str(input()) #단어 입력 받기
-#     char = [i for i in word] #단어 구성 문자 분리
-#     perm = set(map(''.join, permutations(char))) #순열, 중복제거
-#     perm = list(perm) #리스트로 바꿔주기
-#     perm.sort() #사전순 정렬
-#     idx = perm.index(word) #입력 단어의 인덱스 찾기
-#     if len(perm) == idx+1: #마지막 단어인 경우 그대로 출력
-#         print(word)
-#     else: #입력 단어 다음 단어 출력
-#         print(perm[idx+1])
+n = int(input()) #반복횟수
+for i in range(n):
+    word = str(input()) #단어 입력 받기
+    char = [i for i in word] #단어 구성 문자 분리
+    perm = set(map(''.join, permutations(char))) #순열, 중복제거
+    perm = list(perm) #리스트로 바꿔주기
+    perm.sort() #사전순 정렬
+    idx = perm.index(word) #입력 단어의 인덱스 찾기
+    if len(perm) == idx+1: #마지막 단어인 경우 그대로 출력
+        print(word)
+    else: #입력 단어 다음 단어 출력
+        print(perm[idx+1])
 
 #접근 2
 def next(w):
