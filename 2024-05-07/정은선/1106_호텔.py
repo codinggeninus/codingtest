@@ -21,7 +21,6 @@ def dfs(cost, person):
 #입력 받기
 c, n = map(int, input().split())
 arr = [tuple(map(int, input().split())) for _ in range(n)]
-dp = [0] + c * 
 min_cost = float("inf") #최소비용 초기화
 
 dfs(0, 0)
