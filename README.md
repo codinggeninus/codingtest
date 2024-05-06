@@ -32,7 +32,7 @@ https://github.com/tony9402/baekjoon
     </td>
         <td align="center" width="150px">
       <a href="https://github.com/LEE-sh1673" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/135521917?v=4" alt="이승훈 프로필" />
+        <img src="https://avatars.githubusercontent.com/u/67586161?v=4" alt="이승훈 프로필" />
       </a>
     </td>
         <td align="center" width="150px">
