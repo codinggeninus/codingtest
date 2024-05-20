@@ -10,7 +10,7 @@
 5. 일요일까지 카톡방 투표에 이번주차에 다루면 좋을 문제를 투표합니다.
 6. 스터디 시간에 많은 사람이 투표한 문제에 대한 풀이를 공유하고 40분 동안 1문제를 푼 뒤, 채팅 또는 음성으로 접근법이나 풀이를 간단히 공유합니다.
 
-## 🧑‍🏫 발제자의 역할
+## 🧑‍🏫 발제자의 역할 -> 문제 선정 프로그램으로 대체!
 1. 매주 6문제 + 1문제를 선정합니다.
 2. 6문제는 하, 중, 상 각 2문제로 구성하며 1문제는 중상 난이도로 다음주 스터디 당일에 공개합니다.
 3. 월요일 밤 12시 전까지 디스코드에 선정한 6문제를 올리고 카톡방에 난이도 투표를 올립니다.
@@ -79,11 +79,6 @@ https://github.com/tony9402/baekjoon
         <img src="https://avatars.githubusercontent.com/u/77774140?v=4" alt="이인수 프로필" />
       </a>
     </td>
-    <td align="center" width="150px">
-      <a href="https://github.com/positivehun" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/46879750?v=4" alt="김지헌 프로필" />
-      </a>
-    </td>
         <td align="center" width="150px">
       <a href="https://github.com/lsc713" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/139448668?v=4" alt="이주호 프로필" />
@@ -99,16 +94,13 @@ https://github.com/tony9402/baekjoon
         <img src="https://avatars.githubusercontent.com/u/55444481?v=4" alt="박한성 프로필" />
       </a>
     </td>
+    <td align="center" width="150px">
+    </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/insoo00" target="_blank">
         이인수
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/positivehun" target="_blank">
-        김지헌
       </a>
     </td>
         <td align="center">
@@ -126,6 +118,8 @@ https://github.com/tony9402/baekjoon
         박한성
       </a>
     </td>
+    <td align="center">
+    </td>
   </tr>
 </table>
 <br/>
@@ -136,4 +130,12 @@ https://github.com/tony9402/baekjoon
 👉 3주차 | <a href="https://www.acmicpc.net/problem/1012">1012 유기농 배추</a>, <a href="https://www.acmicpc.net/problem/1260">1260 DFS와 BFS</a>, <a href="https://www.acmicpc.net/problem/2667">2667 단지 번호 붙이기</a>, <a href="https://www.acmicpc.net/problem/7569">7569 토마토</a>, <a href="https://www.acmicpc.net/problem/7576">7576 토마토</a>, <a href="https://www.acmicpc.net/problem/16236">16236 아기상어</a>, <a href="https://www.acmicpc.net/problem/17142">17142 연구소(3)</a> <br/>
 👉 4주차 | <a href="https://www.acmicpc.net/problem/1654">1654 랜선 자르기</a>, <a href="https://www.acmicpc.net/problem/1920">1920 수 찾기</a>, <a href="https://www.acmicpc.net/problem/2343">2343 기타 레슨</a>, <a href="https://www.acmicpc.net/problem/2467">2467 용액</a>, <a href="https://www.acmicpc.net/problem/2776">2776 암기왕</a>, <a href="https://www.acmicpc.net/problem/2805">2805 나무 자르기</a>, <a href="https://www.acmicpc.net/problem/10816">10816 숫자 카드2</a> <br/>
 👉 5주차 | <a href="https://www.acmicpc.net/problem/1003">1003 피보나치 함수</a>, <a href="https://www.acmicpc.net/problem/1149">1149 RDB 거리</a>, <a href="https://www.acmicpc.net/problem/2579">2579 계단 오르기</a>, <a href="https://www.acmicpc.net/problem/2775">2775 부녀회장이 될테야</a>, <a href="https://www.acmicpc.net/problem/2839">2839 설탕배달</a>, <a href="https://www.acmicpc.net/problem/11726">11726 2xN 타일링</a>, <a href="https://www.acmicpc.net/problem/12865">12865 평범한 배낭</a> <br/>
-👉 6주차 | <a href="https://www.acmicpc.net/problem/1106">1106 호텔</a>, <a href="https://www.acmicpc.net/problem/3980">3980 선발 명단</a>, <a href="https://www.acmicpc.net/problem/9081">9081 단어 맞추기</a>, <a href="https://www.acmicpc.net/problem/9465">9465 스티커</a>, <a href="https://www.acmicpc.net/problem/11055">11055 가장 큰 증가하는 부분 수열</a>, <a href="https://www.acmicpc.net/problem/20436">20436 ZOAC3</a>, <a href="https://www.acmicpc.net/problem/21918">21918 전구</a> <br/>
+👉 6주차 | <a href="https://www.acmicpc.net/problem/1106">1106 호텔</a>, <a href="https://www.acmicpc.net/problem/3980">3980 선발 명단</a>, <a href="https://www.acmicpc.net/problem/9081">9081 단어 맞추기</a>, <a href="https://www.acmicpc.net/problem/9465">9465 스티커</a>, <a href="https://www.acmicpc.net/problem/11055">11055 가장 큰 증가하는 부분 수열</a>, <a href="https://www.acmicpc.net/problem/20436">20436 ZOAC3</a>, <a href="https://www.acmicpc.net/problem/21918">21918 전구</a> <br/>
+👉 7주차 | <a href="https://www.acmicpc.net/problem/1141">1141 접두사</a>, <a href="https://www.acmicpc.net/problem/1244">1244 스위치 켜고 끄기</a>, <a href="https://www.acmicpc.net/problem/2869">2869 달팽이는 올라가고 싶다</a>, <a href="https://www.acmicpc.net/problem/3273">3273 두 수의 합</a>, <a href="https://www.acmicpc.net/problem/4179">4179 불</a>, <a href="https://www.acmicpc.net/problem/14391">14391 종이조각</a>, <a href="https://www.acmicpc.net/problem/16198">16198 에너지 모으기</a> <br/>
+👉 8주차 | <a href="https://www.acmicpc.net/problem/2467">2467 용액</a>,
+<a href="https://www.acmicpc.net/problem/2583">2583 영역 구하기</a>,
+<a href="https://www.acmicpc.net/problem/4485">4485 녹색 옷 입은 애가 젤다지?</a>, 
+<a href="https://www.acmicpc.net/problem/7562">7562 나이트의 이동</a>, 
+<a href="https://www.acmicpc.net/problem/15665">15665 N과 M(11)</a>, 
+<a href="https://www.acmicpc.net/problem/16926">16926 배열 돌리기 1</a>, 
+<a href="https://www.acmicpc.net/problem/17393">17393 다이나믹 롤러</a> <br/>
