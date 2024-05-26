@@ -23,3 +23,4 @@ while len(q) > 0 :
             board[newr][newc] = cur+1
             q.append((newr,newc))
 print(-1)
+
